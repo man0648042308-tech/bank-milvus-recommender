@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "editor.inlineSuggest.edits.renderSideBySide": "auto",
+    "chatgpt.commentCodeLensEnabled": false,
+    "editor.inlineSuggest.enabled": false
+}
