@@ -1,7 +1,7 @@
 [project]
-name = "bank-milvus-day32"
+name = "bank-milvus-"
 version = "0.1.0"
-description = "Day32 Milvus vector database homework with a banking recommendation demo"
+description = "Milvus vector database project with a banking recommendation demo"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -28,3 +28,4 @@ addopts = "-q"
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 default = true
+

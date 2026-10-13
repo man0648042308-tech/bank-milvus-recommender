@@ -1,6 +1,6 @@
 > 本仓库为个人作品集公开版：AI 大模型应用开发课程实战项目，模拟数据，非生产系统。更多项目见作品集主页。
 
-# Day32：银行产品 Milvus 向量推荐作业
+# 银行产品 Milvus 向量推荐作业
 
 ## 一句话说明
 
@@ -11,7 +11,7 @@
 - Windows：VS Code、Python代码、uv、PyMilvus客户端。
 - VMware Ubuntu：Milvus 2.6.22服务端。
 - 服务地址：`http://192.168.220.77:19530`。
-- 虚拟机部署目录：`/opt/day32-milvus`。
+- 虚拟机部署目录：`/opt/milvus`。
 
 Windows没有运行Milvus Lite。Windows代码通过VMnet8访问虚拟机中的Milvus Standalone。
 
@@ -42,7 +42,7 @@ uv run python tests\verify_integration.py
 
 ```text
 1. 已连接 Milvus：http://192.168.220.77:19530
-2. 已向 day32_bank_products 插入 5 个产品
+2. 已向 _bank_products 插入 5 个产品
 3. 推荐结果：
    1. 安心储蓄，风险等级 1……
 ```
@@ -84,7 +84,8 @@ uv run python tests\verify_integration.py
 
 ## 安全边界
 
-- 代码只允许删除以`day32_`开头的练习Collection。
+- 代码只允许删除以`_`开头的练习Collection。
 - `.env`不提交。
 - 不修改课程原目录。
 - 不会删除虚拟机中的PostgreSQL或其他数据。
+
