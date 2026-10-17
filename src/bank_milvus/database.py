@@ -18,9 +18,9 @@ def connect_client() -> MilvusClient:
 
 
 def ensure_safe_collection_name(collection_name: str) -> None:
-    """只允许练习代码操作 day32_ 前缀的 Collection。"""
+    """只允许示例代码操作 day32_ 前缀的 Collection。"""
     if not collection_name.startswith(COLLECTION_PREFIX):
-        raise ValueError(f"拒绝操作非练习集合：{collection_name}")
+        raise ValueError(f"拒绝操作非示例集合：{collection_name}")
 
 
 def recreate_collection(
@@ -69,6 +69,6 @@ def insert_products(
 
 
 def prepare_demo_data(client: MilvusClient) -> int:
-    """创建 Collection 并填充作业数据。"""
+    """创建 Collection 并填充项目数据。"""
     recreate_collection(client)
     return insert_products(client)

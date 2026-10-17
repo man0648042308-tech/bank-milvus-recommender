@@ -1,4 +1,4 @@
-"""Day32 银行产品向量检索练习。"""
+"""Day32 银行产品向量检索示例。"""
 
 from .recommendation import recommend_products
 

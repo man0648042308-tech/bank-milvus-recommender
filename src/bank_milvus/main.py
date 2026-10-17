@@ -1,4 +1,4 @@
-"""Day32 作业的一键运行入口。"""
+"""项目的一键运行入口。"""
 
 from .config import COLLECTION_NAME, MILVUS_URI
 from .database import connect_client, prepare_demo_data

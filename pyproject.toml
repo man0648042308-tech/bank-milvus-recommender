@@ -1,5 +1,5 @@
 [project]
-name = "bank-milvus-"
+name = "bank-milvus-recommender"
 version = "0.1.0"
 description = "Milvus vector database project with a banking recommendation demo"
 readme = "README.md"
